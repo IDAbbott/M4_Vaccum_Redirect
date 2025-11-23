@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "OuterWidth",
-      "ioValue": 184,
-      "currentEquation": "184"
+      "ioValue": 154,
+      "currentEquation": "154"
     },
     {
       "name": "OuterHeight",
@@ -42,7 +42,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 184,
+          "ioValue": 154,
           "currentEquation": "154.5"
         }
       ]
@@ -110,12 +110,12 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 184,
+          "ioValue": 154,
           "currentEquation": "154.5"
         },
         {
           "name": "y length",
-          "ioValue": 184,
+          "ioValue": 154,
           "currentEquation": "154.5"
         }
       ]
@@ -158,7 +158,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-extrude-circle-92-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1--82.5-0-0",
+            "geometry": "move-extrude-circle-77-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1--82.5-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -185,7 +185,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-extrude-circle-92-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1-82.5-0-0",
+            "geometry": "move-extrude-circle-77-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1-82.5-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -212,7 +212,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "extrude-rectangle-184-184-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1",
+            "geometry": "extrude-rectangle-154-154-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -473,7 +473,7 @@
         {
           "name": "Shape 4",
           "ioValue": {
-            "geometry": "extrude-move-rectangle-200-250--75-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+            "geometry": "extrude-move-rectangle-200-250--100-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -585,8 +585,8 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -75,
-          "currentEquation": "-75"
+          "ioValue": -100,
+          "currentEquation": "-100"
         },
         {
           "name": "yDist",
