@@ -275,8 +275,8 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 100,
+          "currentEquation": "100"
         },
         {
           "name": "y length",
@@ -446,7 +446,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-extrude-rectangle-50-70-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-0-0-0",
+            "geometry": "move-extrude-rectangle-100-70-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-25-0-0",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -475,17 +475,19 @@
     },
     {
       "atomType": "Move",
-      "x": 0.32805429864253394,
-      "y": 0.8875,
+      "x": 0.3669683257918552,
+      "y": 0.8854166666666666,
       "uniqueID": "id-104",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 25,
+          "currentEquation": "25"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
