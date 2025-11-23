@@ -385,8 +385,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.4108597285067873,
-      "y": 0.58125,
+      "x": 0.4746606334841629,
+      "y": 0.6083333333333334,
       "uniqueID": "id-99",
       "ioValues": [
         {
@@ -469,6 +469,33 @@
             "tags": [],
             "bom": []
           }
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": {
+            "geometry": "extrude-move-rectangle-200-250--75-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         }
       ],
       "unionType": "Fusion"
@@ -518,6 +545,59 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "M4_Vaccum_Redirect"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.43619909502262444,
+      "y": 0.8708333333333333,
+      "uniqueID": "id-116",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 200,
+          "currentEquation": "200"
+        },
+        {
+          "name": "y length",
+          "ioValue": 250,
+          "currentEquation": "250"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5705882352941176,
+      "y": 0.8729166666666667,
+      "uniqueID": "id-120",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4904977375565611,
+      "y": 0.8854166666666666,
+      "uniqueID": "id-125",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": -75,
+          "currentEquation": "-75"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -670,6 +750,21 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-104",
       "ap2ID": "id-99"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-116",
+      "ap2ID": "id-125"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-120",
+      "ap2ID": "id-99"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-125",
+      "ap2ID": "id-120"
     }
   ],
   "unitsKey": "MM",
