@@ -151,8 +151,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.40316742081447965,
-      "y": 0.3125,
+      "x": 0.40588235294117647,
+      "y": 0.33125,
       "uniqueID": "id-43",
       "ioValues": [
         {
@@ -326,12 +326,13 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 82.5,
-          "currentEquation": "82.5"
+          "ioValue": 86,
+          "currentEquation": "86"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -366,8 +367,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 180,
-          "currentEquation": "180"
+          "ioValue": 152,
+          "currentEquation": "152"
         }
       ]
     },
@@ -392,7 +393,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-extrude-circle-32.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-82.5-0-0",
+            "geometry": "move-extrude-circle-32.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-86-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -419,7 +420,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-extrude-circle-90-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19--80-0-0",
+            "geometry": "move-extrude-circle-76-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19--80-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -473,13 +474,13 @@
         {
           "name": "Shape 4",
           "ioValue": {
-            "geometry": "extrude-move-rectangle-200-250--100-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+            "geometry": "extrude-move-rectangle-200-250--100-0-0-{\"origin\":[0,0,-10],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
             "dimension": "3D",
             "plane": {
               "origin": [
                 0,
                 0,
-                0
+                -10
               ],
               "xDir": [
                 1,
@@ -649,7 +650,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": -10,
+          "currentEquation": "-10"
         }
       ]
     },
