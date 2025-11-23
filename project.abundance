@@ -496,6 +496,60 @@
             "tags": [],
             "bom": []
           }
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": {
+            "geometry": "move-extrude-rectangle-95-35-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-55-55-0",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 6",
+          "ioValue": {
+            "geometry": "move-extrude-rectangle-95-35-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-55--55-0",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         }
       ],
       "unionType": "Fusion"
@@ -607,8 +661,8 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 95,
+          "currentEquation": "95"
         },
         {
           "name": "y length",
@@ -661,15 +715,18 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 55,
+          "currentEquation": "55"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": -55,
+          "currentEquation": "-55"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     }
@@ -854,6 +911,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-135",
       "ap2ID": "id-151"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-139",
+      "ap2ID": "id-99"
+    },
+    {
+      "ap2Name": "Shape 6",
+      "ap1ID": "id-151",
+      "ap2ID": "id-99"
     }
   ],
   "unitsKey": "MM",
