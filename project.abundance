@@ -12,8 +12,8 @@
     },
     {
       "name": "OuterHeight",
-      "ioValue": 19,
-      "currentEquation": "19"
+      "ioValue": 1,
+      "currentEquation": "1"
     },
     {
       "name": "InnerWidth",
@@ -55,7 +55,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 19,
+          "ioValue": 1,
           "currentEquation": "17"
         }
       ]
@@ -128,7 +128,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 19,
+          "ioValue": 1,
           "currentEquation": "19"
         }
       ]
@@ -158,7 +158,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-extrude-circle-92-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19--82.5-0-0",
+            "geometry": "move-extrude-circle-92-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1--82.5-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -185,7 +185,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-extrude-circle-92-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19-82.5-0-0",
+            "geometry": "move-extrude-circle-92-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1-82.5-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -212,7 +212,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "extrude-rectangle-184-184-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19",
+            "geometry": "extrude-rectangle-184-184-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -494,6 +494,30 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.583710407239819,
+      "y": 0.675,
+      "uniqueID": "id-111",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_Vaccum_Redirect"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_Vaccum_Redirect"
     }
   ],
   "allConnectors": [
@@ -616,6 +640,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-83",
       "ap2ID": "id-104"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-88",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-88",
+      "ap2ID": "id-111"
     },
     {
       "ap2Name": "geometry",
