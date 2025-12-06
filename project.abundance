@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "OuterWidth",
-      "ioValue": 152,
-      "currentEquation": "152"
+      "ioValue": 148
     },
     {
       "name": "OuterHeight",
@@ -98,8 +97,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.19914893617021276,
-      "y": 0.15887850467289721,
+      "x": 0.32,
+      "y": 0.12383177570093457,
       "uniqueID": "id-280",
       "ioValues": [
         {
@@ -110,8 +109,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3038297872340426,
-      "y": 0.21728971962616822,
+      "x": 0.548936170212766,
+      "y": 0.16822429906542055,
       "uniqueID": "id-283",
       "ioValues": [
         {
@@ -122,8 +121,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.18553191489361703,
-      "y": 0.6168224299065421,
+      "x": 0.3242553191489362,
+      "y": 0.455607476635514,
       "uniqueID": "id-287",
       "ioValues": [
         {
@@ -146,15 +145,63 @@
     },
     {
       "atomType": "Intersection",
-      "x": 0.4638297872340425,
-      "y": 0.3411214953271028,
+      "x": 0.5914893617021277,
+      "y": 0.588785046728972,
       "uniqueID": "id-294"
     },
     {
       "atomType": "Equation",
-      "x": 0.2127659574468085,
-      "y": 0.3364485981308411,
+      "x": 0.2093617021276596,
+      "y": 0.14485981308411214,
       "uniqueID": "id-298",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 148
+        },
+        {
+          "name": "y",
+          "ioValue": 4
+        }
+      ],
+      "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.24595744680851062,
+      "y": 0.35514018691588783,
+      "uniqueID": "id-306",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 148
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.39574468085106385,
+      "y": 0.25,
+      "uniqueID": "id-309"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.30723404255319153,
+      "y": 0.5841121495327103,
+      "uniqueID": "id-313",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.18638297872340426,
+      "y": 0.544392523364486,
+      "uniqueID": "id-316",
       "name": "x + y",
       "ioValues": [
         {
@@ -171,9 +218,14 @@
   ],
   "allConnectors": [
     {
+      "ap2Name": "x",
+      "ap1ID": "id-37",
+      "ap2ID": "id-298"
+    },
+    {
       "ap2Name": "diameter",
       "ap1ID": "id-37",
-      "ap2ID": "id-280"
+      "ap2ID": "id-306"
     },
     {
       "ap2Name": "height",
@@ -201,14 +253,24 @@
       "ap2ID": "id-111"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "geometry1",
       "ap1ID": "id-280",
-      "ap2ID": "id-283"
+      "ap2ID": "id-309"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-298",
+      "ap2ID": "id-280"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-306",
+      "ap2ID": "id-309"
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-287",
-      "ap2ID": "id-290"
+      "ap1ID": "id-309",
+      "ap2ID": "id-283"
     }
   ],
   "unitsKey": "MM",
