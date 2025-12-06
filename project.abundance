@@ -649,11 +649,79 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "z-axis degrees",
+              "ioValue": 190
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7348416289592761,
+          "y": 0.30947368421052635,
+          "uniqueID": "id-599",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.6226244343891403,
+          "y": 0.616842105263158,
+          "uniqueID": "id-604",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
               "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 315
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.6153846153846154,
+          "y": 0.8463157894736842,
+          "uniqueID": "id-611",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 235
             }
           ]
         }
@@ -700,9 +768,39 @@
           "ap2ID": "id-593"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "id-581",
+          "ap2ID": "id-604"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-581",
+          "ap2ID": "id-611"
+        },
+        {
+          "ap2Name": "Shape 1",
           "ap1ID": "id-587",
+          "ap2ID": "id-599"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-593",
+          "ap2ID": "id-599"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-599",
           "ap2ID": "id-551"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-604",
+          "ap2ID": "id-599"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-611",
+          "ap2ID": "id-599"
         }
       ],
       "fileTypeVersion": 1
