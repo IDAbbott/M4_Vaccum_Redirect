@@ -211,8 +211,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.1097872340425532,
-      "y": 0.7102803738317757,
+      "x": 0.05191489361702128,
+      "y": 0.7406542056074766,
       "uniqueID": "id-324",
       "ioValues": [
         {
@@ -228,8 +228,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5753191489361702,
-      "y": 0.20794392523364486,
+      "x": 0.5914893617021277,
+      "y": 0.19626168224299068,
       "uniqueID": "id-328",
       "ioValues": [
         {
@@ -251,13 +251,21 @@
         {
           "name": "Shape 5",
           "ioValue": null
+        },
+        {
+          "name": "Shape 6",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 7",
+          "ioValue": null
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.2097872340425532,
-      "y": 0.7102803738317757,
+      "x": 0.14382978723404255,
+      "y": 0.7733644859813085,
       "uniqueID": "id-333",
       "ioValues": [
         {
@@ -268,8 +276,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.35489361702127664,
-      "y": 0.7289719626168224,
+      "x": 0.2323404255319149,
+      "y": 0.8014018691588786,
       "uniqueID": "id-343",
       "ioValues": [
         {
@@ -289,8 +297,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.45659574468085107,
-      "y": 0.7406542056074766,
+      "x": 0.41106382978723405,
+      "y": 0.8177570093457944,
       "uniqueID": "id-349",
       "ioValues": [
         {
@@ -309,8 +317,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.4451063829787234,
-      "y": 0.9579439252336448,
+      "x": 0.3361702127659575,
+      "y": 0.9532710280373832,
       "uniqueID": "id-361",
       "ioValues": [
         {
@@ -329,8 +337,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.45702127659574465,
-      "y": 0.8504672897196262,
+      "x": 0.38468085106382977,
+      "y": 0.8761682242990655,
       "uniqueID": "id-373",
       "ioValues": [
         {
@@ -350,8 +358,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.4561702127659575,
-      "y": 0.6378504672897196,
+      "x": 0.4544680851063829,
+      "y": 0.7570093457943925,
       "uniqueID": "id-381",
       "ioValues": [
         {
@@ -360,18 +368,19 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 0
+          "ioValue": 130
         }
       ]
     },
     {
       "atomType": "Rotate",
-      "x": 0.4544680851063829,
-      "y": 0.5630841121495327,
+      "x": 0.49361702127659574,
+      "y": 0.6845794392523364,
       "uniqueID": "id-387",
       "ioValues": [
         {
@@ -384,6 +393,55 @@
         },
         {
           "name": "z-axis degrees",
+          "ioValue": 50
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.058723404255319155,
+      "y": 0.5560747663551402,
+      "uniqueID": "id-395",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 35
+        },
+        {
+          "name": "y length",
+          "ioValue": 10,
+          "currentEquation": "10"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.15872340425531917,
+      "y": 0.5560747663551402,
+      "uniqueID": "id-399",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 29
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.25872340425531914,
+      "y": 0.5560747663551402,
+      "uniqueID": "id-403",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 30
+        },
+        {
+          "name": "zDist",
           "ioValue": 0
         }
       ]
@@ -524,6 +582,26 @@
       "ap2Name": "Shape 4",
       "ap1ID": "id-373",
       "ap2ID": "id-328"
+    },
+    {
+      "ap2Name": "Shape 7",
+      "ap1ID": "id-381",
+      "ap2ID": "id-328"
+    },
+    {
+      "ap2Name": "Shape 6",
+      "ap1ID": "id-387",
+      "ap2ID": "id-328"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-395",
+      "ap2ID": "id-399"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-399",
+      "ap2ID": "id-403"
     }
   ],
   "unitsKey": "MM",
