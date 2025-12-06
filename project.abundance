@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "OuterWidth",
-      "ioValue": 144
+      "ioValue": 144,
+      "currentEquation": "144"
     },
     {
       "name": "OuterHeight",
@@ -517,8 +518,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.6045248868778281,
-      "y": 0.7873684210526316,
+      "x": 0.5411764705882353,
+      "y": 0.8126315789473685,
       "uniqueID": "id-549",
       "name": "Molecule",
       "topLevel": false,
@@ -603,7 +604,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 67
             },
             {
               "name": "yDist",
@@ -620,6 +621,27 @@
           "x": 0.6257918552036199,
           "y": 0.23578947368421052,
           "uniqueID": "id-587",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.618552036199095,
+          "y": 0.43999999999999995,
+          "uniqueID": "id-593",
           "ioValues": [
             {
               "name": "x-axis degrees",
@@ -671,6 +693,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-581",
           "ap2ID": "id-587"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-581",
+          "ap2ID": "id-593"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-587",
+          "ap2ID": "id-551"
         }
       ],
       "fileTypeVersion": 1
