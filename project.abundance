@@ -80,14 +80,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_Vaccum_Redirect",
-          "currentEquation": "M4_Vaccum_Redirect"
+          "ioValue": "M4_Vaccum_Redirect_Circle",
+          "currentEquation": "M4_Vaccum_Redirect_Circle"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4_Vaccum_Redirect"
+      "partName": "M4_Vaccum_Redirect_Circle"
     },
     {
       "atomType": "Circle",
@@ -399,8 +399,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.058723404255319155,
-      "y": 0.5560747663551402,
+      "x": 0.05787234042553191,
+      "y": 0.5584112149532711,
       "uniqueID": "id-395",
       "ioValues": [
         {
@@ -409,8 +409,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 20
         }
       ]
     },
@@ -439,7 +438,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 25
+          "ioValue": 32,
+          "currentEquation": "32"
         },
         {
           "name": "zDist",
@@ -607,11 +607,6 @@
       "ap2ID": "id-333"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-328",
-      "ap2ID": "id-2"
-    },
-    {
       "ap2Name": "geometry1",
       "ap1ID": "id-328",
       "ap2ID": "id-428"
@@ -705,6 +700,16 @@
       "ap2Name": "geometry2",
       "ap1ID": "id-423",
       "ap2ID": "id-428"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-428",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-428",
+      "ap2ID": "id-111"
     }
   ],
   "unitsKey": "MM",
