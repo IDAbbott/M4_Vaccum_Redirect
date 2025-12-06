@@ -64,32 +64,6 @@
       "type": "number"
     },
     {
-      "atomType": "Export",
-      "x": 0.7045248868778281,
-      "y": 0.78125,
-      "uniqueID": "id-111",
-      "ioValues": [
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "M4_Vaccum_Redirect_Circle",
-          "currentEquation": "M4_Vaccum_Redirect_Circle"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "M4_Vaccum_Redirect_Circle"
-    },
-    {
       "atomType": "Circle",
       "x": 0.24765957446808512,
       "y": 0.14252336448598132,
@@ -217,7 +191,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 40
+          "ioValue": 41
         },
         {
           "name": "y length",
@@ -451,7 +425,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 93
+          "ioValue": 92
         },
         {
           "name": "y length",
@@ -514,6 +488,100 @@
       "x": 0.6610859728506787,
       "y": 0.5073684210526316,
       "uniqueID": "id-428"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.744343891402715,
+      "y": 0.17473684210526316,
+      "uniqueID": "id-544",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_Vaccum_Redirect",
+          "currentEquation": "M4_Vaccum_Redirect"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_Vaccum_Redirect"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.6045248868778281,
+      "y": 0.7873684210526316,
+      "uniqueID": "id-549",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-551"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.20361990950226244,
+          "y": 0.35578947368421054,
+          "uniqueID": "id-553",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.20045248868778281,
+          "y": 0.6421052631578947,
+          "uniqueID": "id-560",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.30045248868778285,
+          "y": 0.6421052631578947,
+          "uniqueID": "id-563",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-560",
+          "ap2ID": "id-563"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -705,7 +773,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-428",
-      "ap2ID": "id-111"
+      "ap2ID": "id-544"
     }
   ],
   "unitsKey": "MM",
