@@ -7,13 +7,11 @@
   "ioValues": [
     {
       "name": "OuterWidth",
-      "ioValue": 144,
-      "currentEquation": "144"
+      "ioValue": 144
     },
     {
       "name": "OuterHeight",
-      "ioValue": 19,
-      "currentEquation": "19"
+      "ioValue": 16
     },
     {
       "name": "InnerWidth",
@@ -21,7 +19,7 @@
     },
     {
       "name": "InnerHeight",
-      "ioValue": 19
+      "ioValue": 16
     }
   ],
   "topLevel": true,
@@ -84,7 +82,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 19
+          "ioValue": 16
         }
       ]
     },
@@ -108,7 +106,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 19
+          "ioValue": 16
         }
       ]
     },
@@ -196,8 +194,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ]
     },
@@ -221,8 +218,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -246,8 +242,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ]
     },
@@ -271,8 +266,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -335,6 +329,100 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "M4_Vaccum_RedirectCirc"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5036199095022624,
+      "y": 0.8736842105263157,
+      "uniqueID": "id-619",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 16
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5601809954751131,
+      "y": 0.15789473684210528,
+      "uniqueID": "id-672",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 7",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.47647058823529415,
+      "y": 0.3242105263157895,
+      "uniqueID": "id-735",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -8
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.2737556561085973,
+      "y": 0.5789473684210527,
+      "uniqueID": "id-760",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -8
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.34977375565610863,
+      "y": 0.5831578947368421,
+      "uniqueID": "id-770"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.43981900452488687,
+      "y": 0.5705263157894737,
+      "uniqueID": "id-775",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 16
+        }
+      ]
     },
     {
       "atomType": "Molecule",
@@ -453,7 +541,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 10
+              "ioValue": 0
             }
           ]
         },
@@ -469,12 +557,11 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 190
+              "ioValue": 180
             }
           ]
         },
@@ -519,7 +606,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 315
+              "ioValue": 305
             }
           ]
         },
@@ -531,8 +618,7 @@
           "ioValues": [
             {
               "name": "x-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "y-axis degrees",
@@ -541,7 +627,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 235
+              "ioValue": 225
             }
           ]
         }
@@ -626,21 +712,9 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Extrude",
-      "x": 0.5036199095022624,
-      "y": 0.8736842105263157,
-      "uniqueID": "id-619",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 19
-        }
-      ]
-    },
-    {
       "atomType": "Molecule",
-      "x": 0.2502262443438914,
-      "y": 0.9705263157894738,
+      "x": 0.32714932126696833,
+      "y": 0.9284210526315789,
       "uniqueID": "id-623",
       "name": "Clearance2",
       "topLevel": false,
@@ -699,7 +773,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 10
+              "ioValue": 0
             }
           ]
         },
@@ -719,7 +793,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 190
+              "ioValue": 180
             }
           ]
         },
@@ -763,7 +837,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 315
+              "ioValue": 305
             }
           ]
         },
@@ -783,7 +857,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 235
+              "ioValue": 225
             }
           ]
         },
@@ -858,30 +932,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.5601809954751131,
-      "y": 0.15789473684210528,
-      "uniqueID": "id-672",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 4",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 5",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 7",
-          "ioValue": null
-        }
-      ]
     },
     {
       "atomType": "Molecule",
@@ -1125,66 +1175,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Move",
-      "x": 0.47647058823529415,
-      "y": 0.3242105263157895,
-      "uniqueID": "id-735",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "yDist",
-          "ioValue": -8
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.2737556561085973,
-      "y": 0.5789473684210527,
-      "uniqueID": "id-760",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": -8
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Difference",
-      "x": 0.34977375565610863,
-      "y": 0.5831578947368421,
-      "uniqueID": "id-770"
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.43981900452488687,
-      "y": 0.5705263157894737,
-      "uniqueID": "id-775",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 19
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -1319,29 +1309,14 @@
       "ap2ID": "id-544"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-549",
-      "ap2ID": "id-619"
-    },
-    {
       "ap2Name": "Shape 4",
       "ap1ID": "id-619",
       "ap2ID": "id-672"
     },
     {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-623",
-      "ap2ID": "id-423"
-    },
-    {
       "ap2Name": "geometry1",
       "ap1ID": "id-672",
       "ap2ID": "id-428"
-    },
-    {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-677",
-      "ap2ID": "id-770"
     },
     {
       "ap2Name": "Shape 5",
@@ -1362,6 +1337,21 @@
       "ap2Name": "Shape 7",
       "ap1ID": "id-775",
       "ap2ID": "id-672"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-549",
+      "ap2ID": "id-619"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-623",
+      "ap2ID": "id-423"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-677",
+      "ap2ID": "id-770"
     }
   ],
   "unitsKey": "MM",
