@@ -90,8 +90,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.14434389140271492,
-      "y": 0.6357894736842106,
+      "x": 0.1769230769230769,
+      "y": 0.5221052631578947,
       "uniqueID": "id-287",
       "ioValues": [
         {
@@ -102,8 +102,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4004524886877828,
-      "y": 0.37894736842105264,
+      "x": 0.4135746606334842,
+      "y": 0.42526315789473684,
       "uniqueID": "id-290",
       "ioValues": [
         {
@@ -180,8 +180,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.33076923076923076,
-      "y": 0.5663157894736842,
+      "x": 0.320814479638009,
+      "y": 0.30105263157894735,
       "uniqueID": "id-320"
     },
     {
@@ -1123,8 +1123,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4579185520361991,
-      "y": 0.30736842105263157,
+      "x": 0.47647058823529415,
+      "y": 0.3242105263157895,
       "uniqueID": "id-735",
       "ioValues": [
         {
@@ -1140,6 +1140,42 @@
           "name": "zDist",
           "ioValue": 0,
           "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.283710407239819,
+      "y": 0.47157894736842104,
+      "uniqueID": "id-760",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -8
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.36334841628959275,
+      "y": 0.5621052631578948,
+      "uniqueID": "id-766",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
         }
       ]
     }
@@ -1189,6 +1225,11 @@
       "ap2Name": "geometry2",
       "ap1ID": "id-287",
       "ap2ID": "id-320"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-287",
+      "ap2ID": "id-760"
     },
     {
       "ap2Name": "geometry",
