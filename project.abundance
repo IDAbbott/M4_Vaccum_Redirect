@@ -242,7 +242,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 92
+          "ioValue": 90
         },
         {
           "name": "y length",
@@ -327,14 +327,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_Vaccum_Redirect",
-          "currentEquation": "M4_Vaccum_Redirect"
+          "ioValue": "M4_Vaccum_RedirectCirc",
+          "currentEquation": "M4_Vaccum_RedirectCirc"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4_Vaccum_Redirect"
+      "partName": "M4_Vaccum_RedirectCirc"
     },
     {
       "atomType": "Molecule",
@@ -1165,22 +1165,6 @@
         {
           "name": "zDist",
           "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.6171945701357466,
-      "y": 0.8,
-      "uniqueID": "id-766",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 10
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
         }
       ]
     },
